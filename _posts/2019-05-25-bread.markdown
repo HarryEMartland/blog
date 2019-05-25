@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Basic Bread Recipe"
+date:   2019-05-25 15:18:50 +0100
+categories: recipe
+tags: [bread recipe]
+---
+
+This recipe was taken from the [BBC](https://www.bbc.com/food/recipes/paul_hollywoods_crusty_83536).
+
+#### Ingredients
+- Flour 500g
+- Water 300ml
+- Dried Yeast 7g (1 sachets)
+- Salt 7g
+- Sugar 3.5g
+- Olive Oil
+
+#### Method
+1. Add yeast and sugar to water and cover.
+2. Leave until all the yeast has dissolved and created a head on top.
+3. Add the salt to the flour and mix briefly.
+4. Create a well in the four.
+5. Slowly pour in the water and mix with a knife.
+6. Once all the water has been added start chopping with the knife to incorporate more flour.
+7. When the knife becomes clean tip out onto a clean workspace.
+8. Kneed until you can pull the dough apart and create a thin see through window.
+10. Fold the dough in on itself until it creates a ball.
+11. Wipe olive oil around a bowl and place the dough in it.
+12. Cover the bowl with cling film which has been wiped with olive oil.
+13. After two hours flatten the dough and fold it up like an envelope.
+15. Split into two pieces and place into a pan wiped with oil 
+14. Leave to rise one more time for about an hour.
+15. Place the pans in an oven preheated to 200°c and cook for 30 minutes.
