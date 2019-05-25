@@ -3,6 +3,7 @@ layout: post
 title:  "Kodi with Amazon S3"
 date:   2019-05-25 15:18:50 +0100
 categories: kodi
+permalink: /kodi-s3/
 tags: [kodi s3]
 ---
 

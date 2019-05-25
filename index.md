@@ -5,4 +5,6 @@
 layout: home
 ---
 
-{{ site.description }}
+My day job is a Senior Software Engineer at BookingGo.
+This blog is mainly technical with a sprinkling of other things I get up to.
+I am mainly using this for taking notes but if other people find it helpful that's a bonus.

@@ -3,6 +3,7 @@ layout: post
 title:  "Spring Boot Reads Post Body"
 date:   2019-05-25 15:18:50 +0100
 categories: spring-boot
+permalink: /spring-boot-post-body/
 tags: [spring-boot, webflux, rx]
 ---
 
