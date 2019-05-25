@@ -27,7 +27,7 @@ linkedin_username: harrymartland
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
