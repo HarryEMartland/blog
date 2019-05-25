@@ -10,9 +10,10 @@
     {%- endif -%}
     <script>
         document.addEventListener('click', function (event) {
+            const baseUrl = '{{ site.url + site.baseurl }}'.toLowerCase();
             if(event.target.nodeName === 'A'){
-                let href = event.target.href;
-                if(!href.startsWith('{{ site.url + site.baseurl }}') && !href.startsWith('http://127.0.0.1')){
+                const href = event.target.href.toLowerCase();
+                if(!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1')){
                     window.open(href,'_blank');
                     event.preventDefault()
                 }
