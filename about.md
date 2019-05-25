@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I have been working for BookingGo for over three years and have bee on a number of different teams.
+Currently I am on a team which is building a new platform to replace the old website.
+The new website is a Micro Front End and the team is working on the core services and helping teams migrate.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I have previously been on teams working on a customer service system, customer account area and login, a search engine/price aggregator, and inventory applications.
+In my previous job I worked on a SWING UI and later a web app for a assaying company.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Other things which might crop up on this blog are MX-5's, Swimming, Running, Music, Coffee, and making Bread.
+My posting may be a bit sporadic as I go through fazes of doing things and not.
