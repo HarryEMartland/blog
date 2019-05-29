@@ -7,17 +7,17 @@ permalink: /spring-boot-post-body/
 tags: [spring-boot, webflux, rx]
 ---
 
-At work we were presented with an interesting bug.
+At work, we were presented with an interesting bug.
 For background we essentially have a [Spring Boot Webflux](https://spring.io/guides/gs/reactive-rest-service/) app acting as kind of a reverse proxy.
-The bug was we were receiving a HTTP 500 response for certain requests. 
-Due to the complexity of the system we were working on it took us a while to realise it was specifically `POST` requests.
+The bug was we were receiving an HTTP 500 response for certain requests. 
+Due to the complexity of the system, we were working on it took us a while to realise it was specifically `POST` requests.
 `GET` requests where fine.
 
 Webflux is reactive and the service was reading the whole body of the request.
-To ready the body you receive a [Mono](https://www.baeldung.com/reactor-core) which is an [observable object](http://reactivex.io/documentation/observable.html).
+To read the body you receive a [Mono](https://www.baeldung.com/reactor-core) which is an [observable object](http://reactivex.io/documentation/observable.html).
 Observable objects can only be 'observed' once and we could see in the logs something was reading it for a second time.
 We could only see our code reading it once so why would this be an issue?
-Spoiler alert its in the title.
+Spoiler alert it's in the title.
 
 It turns out that Spring is super helpful (not for us :/) and reads `application/x-www-form-urlencoded` `POST` requests into a handy map.
 I get why Spring does this, my issue is that you cannot turn it off and the errors you receive are not super useful.
