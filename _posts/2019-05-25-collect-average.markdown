@@ -9,12 +9,12 @@ tags: [java]
 
 Don't reinvent the wheel! 
 It is drilled into you when you are learning to code, but how do you know when you are?
-If you are doing something which is pretty trivial or a common task, chances are it can ether be done simpler or some one has done it for you.
+If you are doing something which is pretty trivial or a common task, chances are it can either be done simpler or someone has done it for you.
 I see developers often complicating things partly due to lack of experience but also people get a kick out of doing it themselves.
 
-The most recent case of this for me was someone trying get calculate the average, min and max of a list.
+The most recent case of this for me was someone trying to get calculate the average, min and max of a list.
 Straight away they started writing a loop, calculating the sum then the average.
-After a bit of googling turns out stream has a collector for this.
+After a bit of googling it turns out stream has a collector for this.
 
 Here is a simplified version of the final code.
 ```java
