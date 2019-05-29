@@ -8,13 +8,13 @@ tags: [kodi s3]
 ---
 
 It has been nearly two years living at my apartment and I have finally got round to setting up my RaspberryPi as a Media Center again. 
-I found myself wanting to listen to music but to lazy to boot up my BluRay Player and insert a CD (first world problems).
-Last time I had one Pi running as a [NAS](https://en.wikipedia.org/wiki/Network-attached_storage) and anther running [Kodi](https://kodi.tv/) reading media off the [NAS](https://en.wikipedia.org/wiki/Network-attached_storage).
+I found myself wanting to listen to music but too lazy to boot up my BluRay Player and insert a CD (first world problems).
+Last time I had one Pi running as a [NAS](https://en.wikipedia.org/wiki/Network-attached_storage) and another running [Kodi](https://kodi.tv/) reading media off the [NAS](https://en.wikipedia.org/wiki/Network-attached_storage).
 
 When my own [NAS](https://en.wikipedia.org/wiki/Network-attached_storage) I always had drive failure on my mind and I was too tight to run a [RAID](https://en.wikipedia.org/wiki/RAID).
 This time I have stepped things up! 
 I am storing my media in [S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/Introduction.html) meaning I don't have to worry about drive failures or running out of space.
-Admittedly things are a bit slow as every file system request has to go over the network and it is using more internetz.
+Admittedly things are a bit slow as every file system request has to go over the network and it is using more bandwidth.
 
 To do this the PI uses [s3fs](https://github.com/s3fs-fuse/s3fs-fuse) and the [OSMC](https://osmc.tv/) build of [Kodi](https://kodi.tv/) so I could install it.
 I still need to set up mounting the bucket when the PI starts, info to do this can be found [here](https://github.com/s3fs-fuse/s3fs-fuse/issues/412).
