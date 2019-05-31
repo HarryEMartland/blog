@@ -5,6 +5,6 @@
 layout: home
 ---
 
-My day job is a Senior Software Engineer at BookingGo.
+My day job is a Senior Software Engineer at BookingGo whilst also leading the Observability Guild there.
 This blog is mainly technical with a sprinkling of other things I get up to.
 I am mainly using this for taking notes but if other people find it helpful that's a bonus.

@@ -9,8 +9,8 @@
     {%- include google-analytics.html -%}
     {%- endif -%}
     <script>
+        const baseUrl = '{{ site.url + site.baseurl }}'.toLowerCase();
         document.addEventListener('click', function (event) {
-            const baseUrl = '{{ site.url + site.baseurl }}'.toLowerCase();
             if(event.target.nodeName === 'A'){
                 const href = event.target.href.toLowerCase();
                 if(!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1')){
