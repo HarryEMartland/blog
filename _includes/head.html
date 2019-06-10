@@ -11,8 +11,9 @@
     <script>
         const baseUrl = '{{ site.url + site.baseurl }}'.toLowerCase();
         document.addEventListener('click', function (event) {
-            if(event.target.nodeName === 'A'){
-                const href = event.target.href.toLowerCase();
+            let anchor = event.target.closest("A");
+            if(anchor){
+                const href = anchor.href.toLowerCase();
                 if(!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1')){
                     window.open(href,'_blank');
                     event.preventDefault()

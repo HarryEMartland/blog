@@ -15,8 +15,10 @@ I am hosting this on GitHub and letting it build the site which means I am limit
 I found [this](https://keith-mifsud.me/projects/jekyll-target-blank) plugin which does what I want but sadly it is not supported by GitHub. 
 
 Time for some hacking. This is by no means a nice solution but the code below does the trick. 
-It hooks onto all click events, checks if what has been clicked is an anchor tag then checks if the link is external. 
-If the link is external it is opened in a new window otherwise the link works as normal.
+It hooks onto all click events, checks if what has been clicked is inside an anchor tag then checks if the link on the anchor is external. 
+If the link is external it is opened in a new window otherwise the link works as normal. 
+Originally I had the code assume that the anchor was the target for the click event however the links at the bottom of this page are icons with spans next to them.
+Checking that the target is inside an anchor using the `closest(tag)` method allows links on images/spans/icons.
 
 External link checking is done by using the Jekyll `url` and `baseUrl` variable, if it begins with the `url + baseUrl` then it is internal otherwise it is external. 
 This was tripped up when running locally as the URL is set to `localhost` however I was using `127.0.0.1` to access the site. 
@@ -29,8 +31,9 @@ The file can be found [here](https://github.com/jekyll/minima/blob/master/_inclu
 ```javascript
 const baseUrl = '{{ site.url + site.baseurl }}'.toLowerCase();
 document.addEventListener('click', function (event) {
-    if(event.target.nodeName === 'A'){
-        const href = event.target.href.toLowerCase();
+    let anchor = event.target.closest("A");
+    if(anchor){
+        const href = anchor.href.toLowerCase();
         if(!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1')){
             window.open(href,'_blank');
             event.preventDefault()
