@@ -16,7 +16,7 @@
 title: HarryMartland.co.uk
 email: HarryEMartland@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Thanks for checking out my blog. Feedback and questions are welcome.
+  Observability, resilience and general programming are some of the main topics I have learnt and write about whilst working as a Senior Software Engineer for BookingGo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://HarryMartland.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: harrycron
