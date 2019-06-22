@@ -5,6 +5,7 @@ date:   2019-05-25 15:18:50 +0100
 categories: spring-boot
 permalink: /spring-boot-post-body/
 tags: [spring-boot, webflux, rx]
+description: Spring Boot reads the reactive post body causing 500 errors as you can only read it once.
 ---
 
 At work, we were presented with an interesting bug.

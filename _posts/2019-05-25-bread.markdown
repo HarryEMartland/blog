@@ -5,6 +5,7 @@ date:   2019-05-25 15:18:50 +0100
 permalink: /basic-bread/
 categories: recipe
 tags: [bread recipe]
+description: My adjusted recipe for making bread at home, original recipe from the BBC.
 ---
 
 This recipe was taken from the [BBC](https://www.bbc.com/food/recipes/paul_hollywoods_crusty_83536).
@@ -13,7 +14,7 @@ This recipe was taken from the [BBC](https://www.bbc.com/food/recipes/paul_holly
 - Flour 500g
 - Water 300ml
 - Dried Yeast 7g (1 sachets)
-- Salt 7g
+- Salt 5g
 - Sugar 3.5g
 - Olive Oil
 
@@ -31,5 +32,5 @@ This recipe was taken from the [BBC](https://www.bbc.com/food/recipes/paul_holly
 12. Cover the bowl with cling film which has been wiped with olive oil.
 13. After two hours flatten the dough and fold it up like an envelope.
 15. Split into two pieces and place into a pan wiped with oil 
-14. Leave to rise one more time for about an hour.
+14. Leave to rise one more time for about two hours.
 15. Place the pans in an oven preheated to 200°c and cook for 30 minutes.

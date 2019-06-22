@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Information about myself and my career and where I plan on taking this blog.
 ---
 
 <img style="border-radius: 5px; border" src="https://s.gravatar.com/avatar/21d85f4355f68145a248c33ce919fa17?s=150">

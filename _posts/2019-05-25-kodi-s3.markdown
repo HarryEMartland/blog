@@ -5,6 +5,7 @@ date:   2019-05-25 15:18:50 +0100
 categories: kodi
 permalink: /kodi-s3/
 tags: [kodi s3]
+description: My setup of Kodi using Amazon S3 to store music so I wont run out of space or have to worry about backups.
 ---
 
 It has been nearly two years living at my apartment and I have finally got round to setting up my RaspberryPi as a Media Center again. 

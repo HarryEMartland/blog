@@ -5,6 +5,7 @@ date:   2019-05-25 15:18:50 +0100
 permalink: /java-collect-average/
 categories: spring-boot
 tags: [java]
+description: An example of developers reinventing the wheel using Java streams summarising collectors.
 ---
 
 Don't reinvent the wheel! 

@@ -5,6 +5,7 @@ date:   2019-05-31 19:51:00 +0100
 categories: jekyll
 permalink: /jekyll-open-links-in-new-tab/
 tags: [jekyll]
+description: One of the first things I noticed after setting up this blog is that links to external sites open in the same window. 
 ---
 
 One of the first things I noticed after setting up this blog is that links to external sites open in the same window. 
