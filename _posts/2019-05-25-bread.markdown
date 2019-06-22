@@ -8,7 +8,7 @@ tags: [bread recipe]
 description: My adjusted recipe for making bread at home, original recipe from the BBC.
 ---
 
-This recipe was taken from the [BBC](https://www.bbc.com/food/recipes/paul_hollywoods_crusty_83536).
+This recipe was taken from the [BBC](https://www.bbc.co.uk/food/recipes/paul_hollywoods_crusty_83536).
 
 #### Ingredients
 - Flour 500g

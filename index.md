@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Home"
 ---
 
 My day job is a Senior Software Engineer at BookingGo whilst also leading the Observability Guild there.

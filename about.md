@@ -5,7 +5,7 @@ permalink: /about/
 description: Information about myself and my career and where I plan on taking this blog.
 ---
 
-<img style="border-radius: 5px; border" src="https://s.gravatar.com/avatar/21d85f4355f68145a248c33ce919fa17?s=150">
+<img alt="Harry Martland profile" style="border-radius: 5px; border" src="https://s.gravatar.com/avatar/21d85f4355f68145a248c33ce919fa17?s=150">
 
 I have been working for BookingGo for over three years and have bee on a number of different teams.
 Currently I am on a team which is building a new platform to replace the old website.
