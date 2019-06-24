@@ -2,6 +2,7 @@
 layout: post
 title:  "Jekyll Opening Links in New Tag"
 date:   2019-05-31 19:51:00 +0100
+last_modified_at: 2019-06-24 22:51:00 +0100
 categories: jekyll
 permalink: /jekyll-open-links-in-new-tab/
 tags: [jekyll]
