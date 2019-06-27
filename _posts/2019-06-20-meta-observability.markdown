@@ -4,6 +4,7 @@ title:  "Meta Observability"
 date:   2019-06-10 00:00:00 +0100
 categories: observability
 permalink: /meta-observability/
+draft: true
 tags: [observability]
 ---
 
