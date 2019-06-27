@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is Observability?"
+title:  "What is Observability? Real peoples thoughts"
 date:   2019-06-27 00:00:00 +0100
 categories: observability
 permalink: /what-is-observability/

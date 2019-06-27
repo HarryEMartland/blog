@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Steps to Resilience"
+title:  "Steps to Resilience, don't forget the basics"
 date:   2019-06-25 00:00:00 +0100
 categories: resilience
 permalink: /steps-to-resilience/
